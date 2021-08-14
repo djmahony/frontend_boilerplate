@@ -8,6 +8,7 @@ $c-red: #952525;
 $c-green: #0e5000;
 $c-blue: #081e72;
 
+$-text: $c-grey--dark;
 $c-cta: $c-red;
 $c-cta--secondary: $c-green;
 
@@ -18,4 +19,4 @@ $f-size--default: 1.6rem;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;0,800;1,100;1,300;1,600;1,800&display=swap');
 
 //// Font Families
-$f-family--montserrat: 'Montserrat', sans-serif;
+$ff--montserrat: 'Montserrat', sans-serif;

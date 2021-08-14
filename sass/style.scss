@@ -1,14 +1,20 @@
 // Main style file used to import all other styles
-
+// Abstracts are files that don't output any css
+@import 'abstracts/functions';
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
 
+// Base styles
 @import 'base/animations';
-@import 'base/reset';
+@import 'base/base';
 @import 'base/typography';
+@import 'base/utilities';
 
+// Reusable blocks that can be used anywhere
 @import 'components/buttons';
 
+// Structural elements that will be on each page
+@import 'layout/footer';
 @import 'layout/header';
 
 // Page specific styles should be added last
