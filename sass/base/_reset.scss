@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // Sets the root size to 10px, making rem calculations easier elsewhere. Based on default browser size of 16px
+}
+
+body {
+    box-sizing: border-box;
+}
