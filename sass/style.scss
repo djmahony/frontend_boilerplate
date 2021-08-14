@@ -1,0 +1,15 @@
+// Main style file used to import all other styles
+
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/animations';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/buttons';
+
+@import 'layout/header';
+
+// Page specific styles should be added last
+@import 'pages/example';
