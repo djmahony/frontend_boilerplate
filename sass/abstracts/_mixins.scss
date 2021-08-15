@@ -5,3 +5,19 @@
         display: table;
     }
 }
+
+// Mixin to manage media queries
+@mixin respond($name) {
+    @if($name == 'tab-port') {
+        @media (min-width: $bp-tab--port) { @content }
+    }
+    @if($name == 'tab-land') {
+        @media (min-width: $bp-tab--land) { @content }
+    }
+    @if($name == 'desktop') {
+        @media (min-width: $bp-desktop) { @content }
+    }
+    @if($name == 'desktop-large') {
+        @media (min-width: $bp-desktop--large) { @content }
+    }
+}

@@ -25,3 +25,12 @@ $ff--montserrat: 'Montserrat', sans-serif;
 $g-width: 114rem;
 $g-gutter--vertical: 8rem;
 $g-gutter--horizontal: 6rem;
+
+// Media query breakpoints
+
+// Use em as rem doesn't work properly. 1em == 16px;
+
+$bp-tab--port = 37.5em; // 600x
+$bp-tab--land = 50em; // 800px;
+$bp-desktop = 62.5em; // 1000px;
+$bp-desktop--large = 75em; // 1200px;
