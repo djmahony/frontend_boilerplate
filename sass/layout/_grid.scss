@@ -1,0 +1,62 @@
+.row {
+    max-width: $g-width;
+    background-color: $c-grey--lightest;
+    margin: 0 auto;
+    @include clearfix;
+
+    &:not(:last-child) {
+        margin-bottom: $g-gutter--vertical;
+    }
+
+    [class^="col-"] {
+        background-color: $c-red;
+        color: #fff;
+        float: left;
+
+        &:not(:last-child) {
+            margin-right: $g-gutter--horizontal;
+        }
+    }
+    .col- {
+
+        &1-2 {
+            width: column-width(1, 2);
+        }
+
+        &1-3 {
+            width: column-width(1, 3);
+        }
+
+        &2-3 {
+            width: column-width(2, 3);
+        }
+
+        &1-4 {
+            width: column-width(1, 4);
+        }
+
+        &2-4 {
+            width: column-width(2, 4);
+        }
+
+        &3-4 {
+            width: column-width(3, 4);
+        }
+
+        &1-5 {
+            width: column-width(1, 5);
+        }
+
+        &2-5 {
+            width: column-width(2, 5);
+        }
+
+        &3-5 {
+            width: column-width(3, 5);
+        }
+
+        &4-5 {
+            width: column-width(4, 5);
+        }
+    }
+}

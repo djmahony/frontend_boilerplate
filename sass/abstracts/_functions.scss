@@ -1,0 +1,5 @@
+@function column-width($cover, $columns) {
+    $margins: $columns - $cover;
+    @return calc((#{$cover} * ((100% - #{$g-gutter--horizontal} * (#{$columns} - 1)) / #{$columns})) + (#{$g-gutter--horizontal} * (#{$cover} - 1)));
+
+}
