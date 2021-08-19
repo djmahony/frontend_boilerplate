@@ -30,7 +30,7 @@ $g-gutter--horizontal: 6rem;
 
 // Use em as rem doesn't work properly. 1em == 16px;
 
-$bp-tab--port = 37.5em; // 600x
-$bp-tab--land = 50em; // 800px;
-$bp-desktop = 62.5em; // 1000px;
-$bp-desktop--large = 75em; // 1200px;
+$bp-tab--port: 37.5em; // 600x
+$bp-tab--land: 50em; // 800px;
+$bp-desktop: 62.5em; // 1000px;
+$bp-desktop--large: 75em; // 1200px;
